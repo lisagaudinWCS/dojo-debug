@@ -25,7 +25,7 @@ function App() {
           </tr>
         </thead>
         <tbody>
-          <Beers />
+        <Beers />
         </tbody>
       </table>
       

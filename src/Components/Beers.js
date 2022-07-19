@@ -12,17 +12,14 @@ const Beers = () => {
 
     return (
         <div>
-            <h1>BEERS</h1>
-            <div>
                 {beers && beers.map((beer, index) => (
                     <tr key={index}>
-                    <th scope="row">{beer.id}</th>
+                    <td>{beer.id}</td>
                     <td>{beer.name}</td>
                     <td>{beer.description}</td>
                     <td><img src={beer.image_url} height="200px" alt={beer.index}/></td>
                 </tr>
                 ))}
-            </div>
         </div>
     );
 }
